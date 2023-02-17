@@ -1,0 +1,113 @@
+*{
+    padding-top: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+nav{
+    z-index: 10;
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    position: fixed;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    padding: 0px 8px;
+    font-size: 12px;
+    font-weight: bolder;
+    top: 0;
+
+}
+nav .logo img{
+    cursor: pointer;
+}
+nav .logo{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+ /*   justify-content: center;*/
+}
+nav .logo h3{
+    font-family: "Google Sans",Arial,Helvetica,sans-serif;
+}
+nav .logo h4{
+    cursor: pointer;
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav .navbar-left{
+    margin-left: 8px;
+}
+nav .navbar-left li{
+    padding-left: 7px;
+}
+nav .navbar-right{
+    margin-left: 14rem;
+}
+nav .navbar-right .fa{
+   display: inline-flex;
+   padding-top: 20px;
+}
+nav .navbar-right li{
+   
+    padding-right: 7px;
+}
+nav .navbar-right .sign-in{
+    color: #1a73e8;
+    margin-left: 14px;
+}
+
+nav .navbar-right .go-to-drive{
+    background-color: white;
+    color: #1a73e8;
+    border: 1px solid rgb(163, 159, 159);
+    border-radius: 4px;
+    padding: 12px 24px;
+    box-shadow: none;
+
+}
+nav .navbar-right .go-to-drive:hover{
+    background-color: #96bff3;
+    color: #1a73e8;
+    border-color: #dadce0;
+    border-radius: 4px;
+    padding: 12px 24px;
+    border: 1px solid transparent;
+    box-shadow: 0 0 0 1px #1a73e8;
+    transition: all 0.4s ease 0s;
+}
+
+nav .navbar-right .drive-for-work{
+    background-color: #1a73e8;
+    color: #ffff;
+    border: 1px solid #1a73e8;
+    border-radius: 4px;
+    padding: 12px 24px;
+    box-shadow: none;
+
+}
+nav .navbar-right .drive-for-work:hover{
+    background-color: #0b4188;
+    color: #fff;
+    border-color: #dadce0;
+    border-radius: 4px;
+    padding: 12px 24px;
+    border: 1px solid transparent;
+    box-shadow: 0 0 0 1px #1a73e8;
+    transition: all 0.4s ease 0s;
+}
+
