@@ -317,6 +317,7 @@ table{
     margin-right: 5rem;
     border-collapse: collapse;
     text-indent: initial;
+    border-color: rgb(255, 255,255, .25);
 }
 .table-heading th{
     padding: 24px 24px 36px;
